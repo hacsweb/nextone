@@ -2,11 +2,7 @@ import { motion } from "motion/react";
 import { PenTool, Camera, Car, ArrowRight, Check, Lock } from "lucide-react";
 import { useNavigate } from "react-router";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import techCardPhoto from "figma:asset/a346cb44a3f31a74ae796ef6447f53ba764e8d77.png";
-import webCardPhoto from "figma:asset/fdb355c6615d5d755144cd6613bb07028e9a927d.png";
-import photoSlide1 from "figma:asset/94854640e209eda9a82e6888862b668529198a76.png";
-import photoSlide2 from "figma:asset/5729be57e56d114312e9d388938cc26e7e5e04f8.png";
-import photoSlide3 from "figma:asset/9d3017e4950643f21c8d6e790333f193f9dc19a6.png";
+
 import {
   fadeInUp,
   staggerContainer,

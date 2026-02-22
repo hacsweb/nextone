@@ -2,8 +2,7 @@ import { motion } from "motion/react";
 import { ArrowDown, Globe, Camera, Monitor, Car, ArrowRight } from "lucide-react";
 import { Link } from "react-router";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import recruitPhoto from "figma:asset/d5ee6c8838fc3fb2a3f016235f2db0896ff70321.png";
-import startupPhoto from "figma:asset/2ecacb8412f772d8e188af8b8a791d9f1069bf69.png";
+
 import {
   fadeInUp,
   staggerContainer,

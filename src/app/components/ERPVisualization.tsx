@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router";
-import nextOneLogo from "figma:asset/c120dd2e4651f1c668b0455a3c90d90d969c2ae7.png";
+
 
 /* ═══════════════════════════════════════════
    Types
