@@ -18,7 +18,7 @@ function LineIcon({ className }: { className?: string }) {
   );
 }
 
-const CONSULTATION_PHOTO = consultationPhoto;
+const CONSULTATION_PHOTO = "https://placehold.co/600x400";
 
 export function ContactFooter() {
   const navigate = useNavigate();
