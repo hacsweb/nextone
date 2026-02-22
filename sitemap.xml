@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="[http://www.sitemaps.org/schemas/sitemap/0.9](http://www.sitemaps.org/schemas/sitemap/0.9)">
-  <!-- トップページの定義 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>[https://n-e-x-t-one.jp/](https://n-e-x-t-one.jp/)</loc>
-    <lastmod>2026-01-28</lastmod>
+    <loc>https://n-e-x-t-one.jp/</loc>
+    <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- ページが増えた場合は、同様の<url>ブロックをここに追加します -->
-</urlset>
+  </urlset>
