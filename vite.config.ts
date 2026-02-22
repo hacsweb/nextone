@@ -19,10 +19,4 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
-
-  // ↓↓↓ 今回追加したエラー回避の設定 ↓↓↓
-  build: {
-    rollupOptions: {
-      external: (id) => typeof id === "string" && id.startsWith("figma:")
-    }
-  }
+})
