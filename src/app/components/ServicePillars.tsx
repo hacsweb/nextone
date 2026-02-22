@@ -21,9 +21,9 @@ const SERVICES = {
 
 /* ── PHOTO Slideshow images ── */
 const PHOTO_SLIDES = [
-  photoSlide1,
-  photoSlide2,
-  photoSlide3,
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
+  "https://placehold.co/600x400",
 ];
 
 export function ServicePillars() {
