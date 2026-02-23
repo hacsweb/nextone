@@ -9,7 +9,7 @@ import {
   viewportOnce,
 } from "./motion-variants";
 
-import nagoyaPhoto from "figma:asset/8497b42b806cbade48f4e76d71125666fbdc8d91.png";
+import nagoyaPhoto from "../../assets/8497b42b806cbade48f4e76d71125666fbdc8d91.png";
 
 const NAGOYA_PHOTO = nagoyaPhoto;
 

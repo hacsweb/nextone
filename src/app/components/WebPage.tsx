@@ -31,7 +31,7 @@ import {
   cardHover,
   viewportOnce,
 } from "./motion-variants";
-import webLogoImg from "figma:asset/aa4ff548a28cf1a412b0f3a176c55738c3818c04.png";
+import webLogoImg from "../../assets/aa4ff548a28cf1a412b0f3a176c55738c3818c04.png";
 
 /* ── WEB Red / Crimson Palette ── */
 const W = {

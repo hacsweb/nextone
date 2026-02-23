@@ -43,7 +43,7 @@ import {
   cardHover,
   viewportOnce,
 } from "./motion-variants";
-import techLogoImg from "figma:asset/65d1e9f79388d6e072d3444f7356f01ff674409a.png";
+import techLogoImg from "../../assets/65d1e9f79388d6e072d3444f7356f01ff674409a.png";
 
 /* ══════════════════════════════════════════════
    Design Tokens — "Digital Fortress" Theme

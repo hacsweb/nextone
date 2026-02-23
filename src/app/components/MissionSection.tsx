@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Shield, Palette, Monitor } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { fadeInUp, staggerContainer, viewportOnce } from "./motion-variants";
-import teamPhoto from "figma:asset/431f1750f73efab36635975aaae3b58aa8cde98c.png";
+import teamPhoto from "../../assets/431f1750f73efab36635975aaae3b58aa8cde98c.png";
 
 const pillars = [
   {
