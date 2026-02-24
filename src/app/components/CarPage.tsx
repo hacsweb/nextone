@@ -31,7 +31,7 @@ import {
   cardHover,
   viewportOnce,
 } from "./motion-variants";
-import carLogoImg from "figma:asset/37964a356e46b543dff5874309b251e02ea7340a.png";
+import carLogoImg from "../../assets/37964a356e46b543dff5874309b251e02ea7340a.png";
 
 /* ══════════════════════════════════════════════
    Design Tokens — "Midnight Garage" Theme

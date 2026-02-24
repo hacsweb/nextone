@@ -31,24 +31,24 @@ import {
   viewportOnce,
 } from "./motion-variants";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import photoLogoImg from "figma:asset/c7c1938afee94afd0e688f63c9c5caa1422d3a83.png";
-import photoMainImg from "figma:asset/072b1257c4863e04056e09869bb0c5d6ce32f5de.png";
-import photoPortraitImg from "figma:asset/3850f33905ba2c238a567a539e4e40bdb85d2c65.png";
-import photoOfficeImg from "figma:asset/32aca65795b64a143376778a2eafaf9d087622be.png";
-import photoMotionImg from "figma:asset/d950f5443267fbc6c086827af2cf37a7922e7226.png";
-import photoIndustrialImg from "figma:asset/fb6c1bbdb084f2bccb0ce2a1538e060439d0c3e3.png";
-import photoFactoryImg from "figma:asset/ab9372e73784798572129be5a2f86b01ece95fc4.png";
-import photoOfficeGalleryImg from "figma:asset/48ea51f4a8fec99faf01dc565693a9d00904551d.png";
-import photoFoodImg from "figma:asset/991195616105d1137a1d117278a3ced166b66021.png";
-import photoEventImg from "figma:asset/be3dd8c3c7128387ddf840b811cc88954c7030b8.png";
-import photoBrandingImg from "figma:asset/c9de4a6760d9d1ca7a3955a6529a6611a6c4fcd4.png";
-import photoMeetingLaughImg from "figma:asset/9aa975f0da19aac119078f8c0c39b22ea5f4ce0a.png";
-import photoEngineerFocusImg from "figma:asset/182452dd5a28641232958ba37058238061e31243.png";
-import photoWorkerSmileImg from "figma:asset/098a73b3e29d3103fbc8673b57f11a2aa25b0ea1.png";
-import photoWelderSparksImg from "figma:asset/9346934c50cd6c39a4d727051e2ad2911812f104.png";
-import photoTypingHandsImg from "figma:asset/27bfd66065396493e9cc7f4e4de73350b8846526.png";
-import photoHandshakeImg from "figma:asset/f028661394dee4f1125c9b79366e38a3eae66964.png";
-import photoCraftsmanHandsImg from "figma:asset/4bcd0a561fffba0240dca4a5cf9deea850b322bd.png";
+import photoLogoImg from "../../assets/c7c1938afee94afd0e688f63c9c5caa1422d3a83.png";
+import photoMainImg from "../../assets/072b1257c4863e04056e09869bb0c5d6ce32f5de.png";
+import photoPortraitImg from "../../assets/3850f33905ba2c238a567a539e4e40bdb85d2c65.png";
+import photoOfficeImg from "../../assets/32aca65795b64a143376778a2eafaf9d087622be.png";
+import photoMotionImg from "../../assets/d950f5443267fbc6c086827af2cf37a7922e7226.png";
+import photoIndustrialImg from "../../assets/fb6c1bbdb084f2bccb0ce2a1538e060439d0c3e3.png";
+import photoFactoryImg from "../../assets/ab9372e73784798572129be5a2f86b01ece95fc4.png";
+import photoOfficeGalleryImg from "../../assets/48ea51f4a8fec99faf01dc565693a9d00904551d.png";
+import photoFoodImg from "../../assets/991195616105d1137a1d117278a3ced166b66021.png";
+import photoEventImg from "../../assets/be3dd8c3c7128387ddf840b811cc88954c7030b8.png";
+import photoBrandingImg from "../../assets/c9de4a6760d9d1ca7a3955a6529a6611a6c4fcd4.png";
+import photoMeetingLaughImg from "../../assets/9aa975f0da19aac119078f8c0c39b22ea5f4ce0a.png";
+import photoEngineerFocusImg from "../../assets/182452dd5a28641232958ba37058238061e31243.png";
+import photoWorkerSmileImg from "../../assets/098a73b3e29d3103fbc8673b57f11a2aa25b0ea1.png";
+import photoWelderSparksImg from "../../assets/9346934c50cd6c39a4d727051e2ad2911812f104.png";
+import photoTypingHandsImg from "../../assets/27bfd66065396493e9cc7f4e4de73350b8846526.png";
+import photoHandshakeImg from "../../assets/f028661394dee4f1125c9b79366e38a3eae66964.png";
+import photoCraftsmanHandsImg from "../../assets/4bcd0a561fffba0240dca4a5cf9deea850b322bd.png";
 
 /* ══════════════════════════════════════════════
    Design Tokens — "Business Documentary" Theme
