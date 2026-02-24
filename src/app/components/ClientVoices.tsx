@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Star, Quote } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import factoryPhoto from "figma:asset/fc89eeec03b61251fd681e1771e9db437801e69c.png";
-import restaurantPhoto from "figma:asset/20f567ac3e8871240f38c0627942da1a48b7071b.png";
-import constructionPhoto from "figma:asset/3597387e136734568f2c3c96cbdd11c7604abd16.png";
+import factoryPhoto from "../../assets/fc89eeec03b61251fd681e1771e9db437801e69c.png";
+import restaurantPhoto from "../../assets/20f567ac3e8871240f38c0627942da1a48b7071b.png";
+import constructionPhoto from "../../assets/3597387e136734568f2c3c96cbdd11c7604abd16.png";
 import {
   fadeInUp,
   staggerContainer,

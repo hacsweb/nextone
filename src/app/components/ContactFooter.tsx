@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import consultationPhoto from "figma:asset/885bd3feb6e763da0b8f96730b8b797b9597da62.png";
+import consultationPhoto from "../../assets/885bd3feb6e763da0b8f96730b8b797b9597da62.png";
 import { Phone } from "lucide-react";
 import { fadeInUp, staggerContainer, viewportOnce } from "./motion-variants";
 import { useNavigate } from "react-router";

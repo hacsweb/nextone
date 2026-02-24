@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { X, Send, ExternalLink } from "lucide-react";
 import { useNavigate } from "react-router";
-import botAvatar from "figma:asset/9fccc07dafc86b30d8df975987c666e38f4cbd03.png";
+import botAvatar from "../../assets/9fccc07dafc86b30d8df975987c666e38f4cbd03.png";
 
 /* ─── Design tokens ─── */
 const GOLD = { main: "#C8B692", rgb: "200,182,146" };
