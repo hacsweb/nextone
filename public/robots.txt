@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://n-e-x-t-one.jp/sitemap.xml
