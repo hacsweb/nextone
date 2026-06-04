@@ -6,9 +6,15 @@
 
 import type { Variants } from "motion/react";
 
+// 🤖 ここを追加！：GooglebotやNetlifyの事前システムを検知する
+const isBot = typeof navigator !== "undefined" && /bot|googlebot|crawler|spider|robot|crawling|prerender/i.test(navigator.userAgent);
+
+// ロボットなら最初から表示(1)、人間のブラウザなら透明(0)にする
+const initialOpacity = isBot ? 1 : 0;
+
 /* ─── Fade In from Bottom ─── */
 export const fadeInUp: Variants = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: initialOpacity, y: isBot ? 0 : 30 },
   visible: {
     opacity: 1,
     y: 0,
@@ -21,7 +27,7 @@ export const fadeInUp: Variants = {
 
 /* ─── Fade In from Left ─── */
 export const fadeInLeft: Variants = {
-  hidden: { opacity: 0, x: -30 },
+  hidden: { opacity: initialOpacity, x: isBot ? 0 : -30 },
   visible: {
     opacity: 1,
     x: 0,
@@ -34,7 +40,7 @@ export const fadeInLeft: Variants = {
 
 /* ─── Fade In from Right ─── */
 export const fadeInRight: Variants = {
-  hidden: { opacity: 0, x: 30 },
+  hidden: { opacity: initialOpacity, x: isBot ? 0 : 30 },
   visible: {
     opacity: 1,
     x: 0,
@@ -47,7 +53,7 @@ export const fadeInRight: Variants = {
 
 /* ─── Scale In ─── */
 export const scaleIn: Variants = {
-  hidden: { opacity: 0, scale: 0.95 },
+  hidden: { opacity: initialOpacity, scale: isBot ? 1 : 0.95 },
   visible: {
     opacity: 1,
     scale: 1,
@@ -104,7 +110,7 @@ export const heroStagger: Variants = {
 
 /* ─── Hero Child ─── */
 export const heroChild: Variants = {
-  hidden: { opacity: 0, y: 20, filter: "blur(6px)" },
+  hidden: { opacity: initialOpacity, y: isBot ? 0 : 20, filter: isBot ? "blur(0px)" : "blur(6px)" },
   visible: {
     opacity: 1,
     y: 0,
@@ -118,7 +124,7 @@ export const heroChild: Variants = {
 
 /* ─── Page Transition ─── */
 export const pageTransition: Variants = {
-  initial: { opacity: 0, y: 15 },
+  initial: { opacity: initialOpacity, y: isBot ? 0 : 15 },
   animate: {
     opacity: 1,
     y: 0,
